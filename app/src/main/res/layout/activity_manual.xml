@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/grassbg1">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manual"
+        android:textSize="35sp"
+        android:layout_marginBottom="40sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. If the player hits a obstacle it will loose a live. If you lost all your lives the game is over."
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Tap screen to jump over the obstacles"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. You gain a live if you hit a heart"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/mainMenu"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Main Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickManual"
+        />
+
+</LinearLayout>
